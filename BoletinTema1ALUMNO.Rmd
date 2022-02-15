@@ -211,15 +211,21 @@ dim(libReturn$results)[1]
 dim(cabbages)
 lapply(cabbages,class)
 
-#Tiene 60 registros con 4 variables: 2 de tipo factor, 1 tipo numeric y otro tipo integer
+#Tiene 60 registros con 4 variables: 2 de tipo factor, 1 tipo numeric y 3 tipo integer
 
 #b)
-is.na(cabbages$Cult)
-is.na(cabbages$Date)
-is.na(cabbages$HeadWt)
-is.na(cabbages$VitC)
+colSums(is.na(cabbages))
 #Como se puede ver todos los elementos = FALSE por tanto no hay elementos NA
 
+#c)
+dim(Chile)
+lapply(Chile,class)
+
+#Tiene 2700 registros con 8 variables: 4 de tipo factor, 1 tipo numeric y otro tipo integer
+
+
+colSums(is.na(Chile))
+#Hay un valor en sex,11 en education,98 en income,17 en statusquo y 168 en vote
 
 
 ```
