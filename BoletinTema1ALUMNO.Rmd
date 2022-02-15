@@ -213,8 +213,12 @@ lapply(cabbages,class)
 
 #Tiene 60 registros con 4 variables: 2 de tipo factor, 1 tipo numeric y otro tipo integer
 
-
-
+#b)
+is.na(cabbages$Cult)
+is.na(cabbages$Date)
+is.na(cabbages$HeadWt)
+is.na(cabbages$VitC)
+#Como se puede ver todos los elementos = FALSE por tanto no hay elementos NA
 
 
 
