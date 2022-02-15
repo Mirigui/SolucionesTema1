@@ -105,6 +105,14 @@ head(Animals2)
 tail(Animals2)
 str(Animals2)
 
+#c)
+#mammals
+rownames(mammals)
+colnames(mammals)
+
+#Animals2
+rownames(Animals2)
+colnames(Animals2)
 
 
 
