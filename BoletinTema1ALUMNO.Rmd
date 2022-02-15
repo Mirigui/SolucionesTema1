@@ -187,6 +187,9 @@ libReturn
 #b)
 head(libReturn$results, n = 5)
 
+#c)
+dim(libReturn$results)[1]
+#Hay 222 instaladas
 
 
 ```
