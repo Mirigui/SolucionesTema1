@@ -153,7 +153,7 @@ Animals2_primero
 e.  Determina las diferencia entre los animales que no aparecen en ambos conjuntos.
 
 ```{r}
-#La diferencia viene dada como ya he dicho anteriormente porque en como bien su nombre indica en el conjunto mammals todos loa animlaes son mamiferos y en cambio en el conjunto Animals2 tambien hay 3 reptiles(dinosaurios) por tanto no iban a esatr en el otro conjunto.
+#La diferencia viene dada como ya he dicho anteriormente, como bien su nombre indica en el conjunto mammals todos loa animlaes son mamiferos y en cambio en el conjunto Animals2 tambien hay 3 reptiles(dinosaurios) por tanto no iban a esatr en el otro conjunto.
 
 
 
@@ -184,8 +184,8 @@ qqPlot(log(Animals2$brain),col = "red")
 libReturn <- library()
 libReturn
 
-
-
+#b)
+head(libReturn$results, n = 5)
 
 
 
