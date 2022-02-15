@@ -135,9 +135,16 @@ commonAnimals
 e.  Usa **setdiff** para averiguar qué animales no están en ambos conjuntos. ¿Cuántos son ?. ¿Qué tipo de animales son?
 
 ```{r}
+#La funcion setdiff no funciona igual para ambos lados por tanto:
+mammals_primero <- setdiff(mammals, Animals2)
+mammals_primero
 
+Animals2_primero <- setdiff(Animals2,mammals)
+Animals2_primero
 
+#En el primer caso todos los animales que hay en mammals aparecen tambien en Animals2, por tanto hay 0
 
+#En el segundo caso si hay 3v animales que se encuentran en Animals2 pero que no estan en mammlas ya que se tratan de 3 dinosaurios, por tanto reptiles.
 
 
 
