@@ -202,27 +202,16 @@ dim(libReturn$results)[1]
     d.  Utiliza la función **summary**, sobre **cabbages** y **Chile** y observa como, además de otros estadísticos, también devuelve el número de valores perdidos de cada variable.
 
 ```{r}
+#a)
+#Las 3 primeras etapas son:
+#1. Número de registros.
+#2. Número de variables.
+#3. Tipos de variables(numéricas, categóricas, fecha, etc) 
 
+dim(cabbages)
+lapply(cabbages,class)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#Tiene 60 registros con 4 variables: 2 de tipo factor, 1 tipo numeric y otro tipo integer
 
 
 
